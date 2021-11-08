@@ -3,7 +3,7 @@ import yaml
 def load(config_file='config.yml'):
   """Loads the provided yaml config file."""
   try:
-    config = _load_config(os.path.abspath(config_file))
+    config = _load_config(config_file)
   except:
     raise SystemExit('Failed to load configuration file, {}. Review your config and try again.'.format(config_file))
   return config
