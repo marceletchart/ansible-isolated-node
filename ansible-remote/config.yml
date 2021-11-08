@@ -1,0 +1,15 @@
+# Isolated/execution nodes.
+execution_hosts:
+  - hostname: execution_host # FQDN, hostname, or IP of the execution node to run the ansible code.
+    local_ansible_folder: "path_to_ansible_folder" # The local ansible folder containing all of the ansible code to run on the remote nodes
+    playbook: "main.yml" # Playbook to run relative path in local_ansible_folder
+    inventory: "my_inventory" # Inventory file relative path in local_ansible_folder
+    remote_path: "/tmp/" # Remote path to run on the execution node to store the temporary ansible files. Tool will append a folder to the path provided.
+  # add additional execution hosts by copying what is above and filling out for the additional execution hosts
+  # - hostname: execution_host
+  #   local_ansible_folder: "path_to_ansible_folder"
+  #   playbook: "main.yml"
+  #   inventory: "my_inventory" 
+  #   remote_path: "/tmp/"
+
+
