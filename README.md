@@ -26,8 +26,8 @@ pip install ansible-runner
 pip install pywinrm
 ```
 ## Future Plans
-- Update as a package
-- Support sshkey authentication
-- Parallel processing for multiple execution nodes
-- Stream real-time ansible task updates from execution nodes. (maybe as a flag option?)
 Feel free to request additional features! 
+- [] Update as a package
+- [] Support sshkey authentication
+- [] Parallel processing for multiple execution nodes
+- [] Stream real-time ansible task updates from execution nodes. (maybe as a flag option?)
