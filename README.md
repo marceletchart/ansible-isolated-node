@@ -20,14 +20,14 @@ pip install -r requirements.txt
 ```
 * On execution nodes:
 ```
-pip install ansible-runner
+pip install ansible-runner --user
 
 # For windows hosts
 pip install pywinrm
 ```
 ## Future Plans
 Feel free to request additional features! 
-- [] Update as a package
+- [] Update to install as a package
 - [] Support sshkey authentication
 - [] Parallel processing for multiple execution nodes
 - [] Stream real-time ansible task updates from execution nodes. (maybe as a flag option?)
